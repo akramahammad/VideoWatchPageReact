@@ -1,0 +1,53 @@
+.VideoSection {
+    width: 60%;
+    border-right: 2px solid #ccc;
+    padding: 0 6% 0 0;
+}
+
+iframe {
+    height: 335px;
+    width: 100%;
+}
+
+.VideoInfo {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.VideoInfo p {
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+i {
+    margin: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+h2 {
+    font-size: 36px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-top: 1px solid #ccc;
+    padding-top: 16px;
+}
+
+.VideoAddnInfo p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.3;
+    margin-top: 0;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.None {
+    display: none;
+}
+
+.Active {
+    color: #FAD744;
+}

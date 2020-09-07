@@ -1,9 +1,17 @@
 .VideoCard {
     width: calc(25% - 16px);
-    border-radius: 6px;
-    box-shadow: 2px 2px 4px #ccc;
     margin: 8px;
     text-decoration: none;
+}
+
+.VideoCardDiv {
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 4px #ccc;
+}
+
+.Active {
+    border: 2px solid #FAD744;
 }
 
 .Thumbnail {
